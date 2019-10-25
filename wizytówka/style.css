@@ -1,0 +1,266 @@
+/* font-family: 'Saira Condensed', sans-serif;
+        font-family: 'Saira', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Saira', sans-serif;
+}
+
+:root {
+    --main-bg-color: rgb(91, 86, 95);
+    --main-Hover-color: khaki;
+    --main-text_hover-color: rgb(18, 51, 51);
+}
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+section,
+header {
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: no-wrap;
+    text-transform: uppercase;
+}
+
+.welcome {
+    width: 50%;
+    font-family: 'Saira Condensed', sans-serif;
+    padding-left: 3vw;
+}
+
+.welcome p {
+    font-size: 12vh;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.welcome h1 {
+    font-size: 6vh;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.welcome h2 {
+    font-size: 4vh;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+button {
+    font-size: 3vh;
+    font-weight: lighter;
+    border: 3px solid white;
+    height: 90px;
+    background-color: transparent;
+    padding: 10px 20px;
+    margin-top: 50px;
+}
+
+button:hover {
+    background-color: var(--main-Hover-color);
+    color: var(--main-text_hover-color);
+}
+
+.portrait div {
+    width: 50%;
+}
+
+.portrait img {
+    max-height: 100vh;
+    max-width: 100%;
+    margin: 0 100px;
+}
+
+section h1 {
+    font-size: 46px;
+    line-height: 200px;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.842);
+    text-align: center;
+    margin: 0 auto
+}
+
+/* sekcja II pierwsze kroki w it  */
+.itskills p {
+    font-size: 44px;
+    line-height: 64px;
+    padding: 1vh 15vw 3vh 15vw;
+    text-align: center;
+}
+
+ul {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: var(--main-Hover-color);
+    color: var(--main-text_hover-color);
+}
+
+.logo {
+    text-align: center;
+    margin: 3vh auto;
+}
+
+.logo img {
+    height: 225px;
+    width: 225px;
+    margin: 0 1.5vh 3vh 1.5vh;
+}
+
+/* sekcja hobby */
+
+.freetime {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.freetime div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 6vh;
+    font-weight: bold;
+    color: #d60b70;
+}
+
+div.joga {
+    background-image: url(images/joga.jpg);
+    transition: 1s;
+}
+
+div.joga:hover {
+    color: rgb(134, 25, 134);
+    font-size: 7vh;
+}
+
+div.cooking {
+    background-image: url(images/cooking.jpg);
+    transition: 1s;
+}
+
+div.cooking:hover {
+    color: rgb(97, 16, 16);
+    font-size: 7vh;
+}
+
+div.trips {
+    background-image: url(images/sun.jpg);
+    color: white;
+    transition: 1s;
+}
+
+div.trips:hover {
+    color: rgb(250, 246, 9);
+    font-size: 7vh;
+}
+
+div.books {
+    background-image: url(images/books.jpg);
+    color: white;
+    transition: 1s;
+}
+
+div.books:hover {
+    font-size: 7vh;
+}
+
+/* skecja motto */
+
+section.motto {
+    background-image: url(images/work.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.motto p {
+    font-size: 7vh;
+    font-weight: bold;
+    line-height: 100vh;
+    color: var(--main-text_hover-color);
+    height: 100vh;
+    width: 100%;
+}
+
+
+/* sekcja kontakt  */
+.contact {
+    text-align: center;
+}
+
+
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    margin: 5vh auto;
+    flex-wrap: wrap;
+}
+
+.contact input,
+.contact textarea,
+.contact button {
+    width: 100%;
+    margin-bottom: 30px;
+    font-family: 'Saira', sans-serif;
+}
+
+input,
+textarea {
+    font-size: 34px;
+    color: black;
+    padding: 25px;
+}
+
+textarea {
+    height: 30vh;
+}
+
+.contactInfo {
+    padding: 30px;
+    width: 25vw;
+}
+
+.contactInfo div {
+    padding: 40px;
+    font-size: 34px;
+    line-height: 70px;
+}
+
+.phone img,
+.mail img {
+    float: left;
+}
+
+
+footer p {
+    background-color: black;
+    font-size: 20px;
+    text-align: center;
+}
